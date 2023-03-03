@@ -1,0 +1,60 @@
+/* Estilos do cabecalho */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    
+}
+
+.input-pesquisa{
+    background-color: #DB1E8C;
+}
+
+.input-pesquisa::placeholder{
+    color: #FF97D3;
+}
+
+.titulo-cabecalho{
+ 
+    size: 24px;
+    color: #0000EE;
+}
+
+/* Estilos do conteúdo*/
+
+main{
+    background-color: #33475B;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lista-conteudo-principal{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.trilhas{
+    width: calc((100% - 64px) / 3);
+    background-color: #FFFFFF;
+    padding: 32px 32px 96px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.titulo-trilas{
+    color: #364372;
+    margin-bottom: 24px;
+}
+
+.texto-trilha{
+margin-bottom: 16px;
+}
+
+
